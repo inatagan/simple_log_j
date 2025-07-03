@@ -4,6 +4,20 @@ This is a simple library to log artifacts in your java code.
 
 # Install
 
+On your pom file add this repository:
+
+```
+    	<repositories>
+		<repository>
+			<id>github</id>
+			<url>https://github.com/inatagan/simple_log_j</url>
+			<snapshots>
+				<enabled>true</enabled>
+			</snapshots>
+		</repository>
+	</repositories>
+```
+
 On your pom file add this dependency:
 
 ```
