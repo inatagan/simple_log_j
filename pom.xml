@@ -4,7 +4,7 @@
 	<modelVersion>4.0.0</modelVersion>
 	<groupId>io.github.inatagan</groupId>
 	<artifactId>simple_log_j</artifactId>
-	<version>0.0.1-SNAPSHOT</version>
+	<version>0.0.2-SNAPSHOT</version>
 	<name>simple_log_j</name>
 	<description>A simple component to create application logs.</description>
 	<url>https://github.com/inatagan/simple_log_j</url>
@@ -35,7 +35,16 @@
 
 	<build>
 		<plugins>
+
 		</plugins>
 	</build>
+	<distributionManagement>
+		<repository>
+			<id>github</id>
+			<name>GitHub inatagan Apache Maven Packages</name>
+			<url>https://maven.pkg.github.com/inatagan/simple_log_j</url>
+		</repository>
+	</distributionManagement>
+
 
 </project>
